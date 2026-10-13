@@ -1,8 +1,8 @@
 {
  "meta": {
   "tz": "Europe/Berlin",
-  "generated": "2026-10-12",
-  "source": "DIPLOMA Online Campus iCal 导出（快照 12.10.2026）",
+  "generated": "2026-10-13",
+  "source": "DIPLOMA Online Campus iCal 导出（课表最后更新 2026-10-13）",
   "range": [
    "2026-10-13",
    "2027-02-12"
@@ -219,7 +219,7 @@
     "s": "08:00",
     "e": "09:30",
     "t": "Deutsch I",
-    "r": "H 1 _BSA",
+    "r": "H 7_BSA",
     "p": "Frau Schwandt"
    },
    {
@@ -320,7 +320,7 @@
     "s": "08:00",
     "e": "09:30",
     "t": "Deutsch I",
-    "r": "H 1 _BSA",
+    "r": "H 7_BSA",
     "p": "Frau Schwandt"
    },
    {
@@ -421,7 +421,7 @@
     "s": "08:00",
     "e": "09:30",
     "t": "Deutsch I",
-    "r": "H 1 _BSA",
+    "r": "H 7_BSA",
     "p": "Frau Schwandt"
    },
    {
@@ -522,7 +522,7 @@
     "s": "08:00",
     "e": "09:30",
     "t": "Deutsch I",
-    "r": "H 1 _BSA",
+    "r": "H 7_BSA",
     "p": "Frau Schwandt"
    }
   ],
@@ -616,7 +616,7 @@
     "s": "08:00",
     "e": "09:30",
     "t": "Deutsch I",
-    "r": "H 1 _BSA",
+    "r": "H 7_BSA",
     "p": "Frau Schwandt"
    }
   ],
@@ -710,7 +710,7 @@
     "s": "08:00",
     "e": "09:30",
     "t": "Deutsch I",
-    "r": "H 1 _BSA",
+    "r": "H 7_BSA",
     "p": "Frau Schwandt"
    },
    {
@@ -811,7 +811,7 @@
     "s": "08:00",
     "e": "09:30",
     "t": "Deutsch I",
-    "r": "H 1 _BSA",
+    "r": "H 7_BSA",
     "p": "Frau Schwandt"
    },
    {
@@ -912,7 +912,7 @@
     "s": "08:00",
     "e": "09:30",
     "t": "Deutsch I",
-    "r": "H 1 _BSA",
+    "r": "H 7_BSA",
     "p": "Frau Schwandt"
    },
    {
@@ -1013,7 +1013,7 @@
     "s": "08:00",
     "e": "09:30",
     "t": "Deutsch I",
-    "r": "H 1 _BSA",
+    "r": "H 7_BSA",
     "p": "Frau Schwandt"
    },
    {
@@ -1114,7 +1114,7 @@
     "s": "08:00",
     "e": "09:30",
     "t": "Deutsch I",
-    "r": "H 1 _BSA",
+    "r": "H 7_BSA",
     "p": "Frau Schwandt"
    },
    {
@@ -1169,7 +1169,7 @@
     "s": "08:00",
     "e": "09:30",
     "t": "Deutsch I",
-    "r": "H 1 _BSA",
+    "r": "H 7_BSA",
     "p": "Frau Schwandt"
    },
    {
@@ -1270,7 +1270,7 @@
     "s": "08:00",
     "e": "09:30",
     "t": "Deutsch I",
-    "r": "H 1 _BSA",
+    "r": "H 7_BSA",
     "p": "Frau Schwandt"
    },
    {
@@ -1371,7 +1371,7 @@
     "s": "08:00",
     "e": "09:30",
     "t": "Deutsch I",
-    "r": "H 1 _BSA",
+    "r": "H 7_BSA",
     "p": "Frau Schwandt"
    },
    {
@@ -1472,7 +1472,7 @@
     "s": "08:00",
     "e": "09:30",
     "t": "Deutsch I",
-    "r": "H 1 _BSA",
+    "r": "H 7_BSA",
     "p": "Frau Schwandt"
    },
    {
@@ -1557,7 +1557,7 @@
     "s": "08:00",
     "e": "09:30",
     "t": "Deutsch I",
-    "r": "H 1 _BSA",
+    "r": "H 7_BSA",
     "p": "Frau Schwandt"
    },
    {
@@ -1642,7 +1642,7 @@
     "s": "08:00",
     "e": "09:30",
     "t": "Deutsch I",
-    "r": "H 1 _BSA",
+    "r": "H 7_BSA",
     "p": "Frau Schwandt"
    },
    {

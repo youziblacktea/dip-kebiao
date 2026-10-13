@@ -1,7 +1,7 @@
 /* DIPLOMA 课表 —— Service Worker（离线外壳）
-   2026-10-12 由 tools/build_timetable.py 在构建时替换成数据快照日期，
+   2026-10-13 由 tools/build_timetable.py 在构建时替换成数据快照日期，
    这样每次重新构建都会换一个缓存名，旧缓存自动清理。 */
-const CACHE = 'diploma-timetable-2026-10-12';
+const CACHE = 'diploma-timetable-2026-10-13';
 
 const ASSETS = [
   './',
