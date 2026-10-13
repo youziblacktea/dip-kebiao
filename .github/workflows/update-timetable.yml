@@ -1,0 +1,63 @@
+name: 自动更新课表
+
+# 定时去学校 Moodle 拉最新课表 → 重新生成网站 → 有变化才提交
+# 不需要你登录、不需要你电脑开机；用的是 ICAL_URL 这个仓库 Secret。
+
+on:
+  schedule:
+    # 每 6 小时一次（cron 用 UTC 时间：柏林时间 +1~+2）
+    - cron: '0 4,10,16,22 * * *'
+  workflow_dispatch:        # 也可以在 Actions 页面手动点“Run workflow”
+
+permissions:
+  contents: write           # 需要写权限才能把新生成的网站提交回仓库
+
+concurrency:
+  group: update-timetable
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 下载最新课表
+        env:
+          ICAL_URL: ${{ secrets.ICAL_URL }}
+        run: |
+          set -euo pipefail
+          if [ -z "${ICAL_URL:-}" ]; then
+            echo "::error::还没有配置 ICAL_URL。请到 Settings → Secrets and variables → Actions 添加，值是你的课表订阅链接。"
+            exit 1
+          fi
+          curl -fsSL --retry 3 --retry-delay 5 -A "Mozilla/5.0" "$ICAL_URL" -o /tmp/timetable.ics
+          echo "下载成功：$(wc -c < /tmp/timetable.ics) 字节"
+          echo "事件数：$(grep -c 'BEGIN:VEVENT' /tmp/timetable.ics || true)"
+          if ! grep -q 'BEGIN:VCALENDAR' /tmp/timetable.ics; then
+            echo "::error::下载到的不是日历文件，请检查 ICAL_URL 是否还有效（token 可能已重置）。"
+            exit 1
+          fi
+
+      - name: 重新生成网站
+        run: |
+          set -euo pipefail
+          python3 tools/build_timetable.py /tmp/timetable.ics
+          cp -rf dist/. .
+          rm -rf dist
+          echo "生成完成：index.html $(wc -c < index.html) 字节"
+
+      - name: 有变化才提交
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "课表没有变化，本次不提交 ✅"
+          else
+            git commit -m "chore: 自动更新课表 $(date -u +%Y-%m-%d)"
+            git push
+            echo "已提交并推送，GitHub Pages 会在 1 分钟内重新发布 🎉"
+          fi
