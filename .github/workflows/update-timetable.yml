@@ -6,7 +6,7 @@ name: 自动更新课表
 on:
   schedule:
     # 每 6 小时一次（cron 用 UTC 时间：柏林时间 +1~+2）
-    - cron: '0 4,10,16,22 * * *'
+   - cron: '0 * * * *'
   workflow_dispatch:        # 也可以在 Actions 页面手动点“Run workflow”
 
 permissions:
