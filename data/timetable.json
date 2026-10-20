@@ -14,8 +14,8 @@
    "Technik wissenschaftlichen Arbeitens",
    "Einführung in die Mechatronik"
   ],
-  "total": 200,
-  "periods": 383,
+  "total": 199,
+  "periods": 382,
   "days": 77
  },
  "weeks": [
@@ -130,13 +130,6 @@
  ],
  "days": {
   "2026-10-15": [
-   {
-    "s": "10:30",
-    "e": "11:15",
-    "t": "Mathematik II",
-    "r": "H 7_BSA",
-    "p": "Herrn Karwatt"
-   },
    {
     "s": "11:30",
     "e": "13:00",
