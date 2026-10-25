@@ -14,8 +14,8 @@
    "Technik wissenschaftlichen Arbeitens",
    "Einführung in die Mechatronik"
   ],
-  "total": 191,
-  "periods": 366,
+  "total": 190,
+  "periods": 365,
   "days": 74
  },
  "weeks": [
@@ -124,13 +124,6 @@
  ],
  "days": {
   "2026-10-20": [
-   {
-    "s": "10:30",
-    "e": "11:15",
-    "t": "Deutsch II",
-    "r": "H 3_BSA",
-    "p": "Frau Reichert"
-   },
    {
     "s": "11:30",
     "e": "13:00",
