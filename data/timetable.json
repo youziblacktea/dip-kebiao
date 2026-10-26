@@ -4,7 +4,7 @@
   "generated": "2026-10-21",
   "source": "DIPLOMA Online Campus iCal 导出（课表最后更新 2026-10-21）",
   "range": [
-   "2026-10-21",
+   "2026-10-22",
    "2027-02-12"
   ],
   "subjects": [
@@ -14,9 +14,9 @@
    "Technik wissenschaftlichen Arbeitens",
    "Einführung in die Mechatronik"
   ],
-  "total": 188,
-  "periods": 360,
-  "days": 73
+  "total": 187,
+  "periods": 359,
+  "days": 72
  },
  "weeks": [
   {
@@ -123,15 +123,6 @@
   }
  ],
  "days": {
-  "2026-10-21": [
-   {
-    "s": "10:30",
-    "e": "11:15",
-    "t": "Deutsch I",
-    "r": "H 7_BSA",
-    "p": "Frau Schwandt"
-   }
-  ],
   "2026-10-22": [
    {
     "s": "09:45",
