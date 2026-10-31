@@ -14,8 +14,8 @@
    "Technik wissenschaftlichen Arbeitens",
    "Einführung in die Mechatronik"
   ],
-  "total": 181,
-  "periods": 348,
+  "total": 180,
+  "periods": 346,
   "days": 70
  },
  "weeks": [
@@ -118,13 +118,6 @@
  ],
  "days": {
   "2026-10-26": [
-   {
-    "s": "08:00",
-    "e": "09:30",
-    "t": "Deutsch I",
-    "r": "H 9_BSA",
-    "p": "Frau Schwandt"
-   },
    {
     "s": "09:45",
     "e": "11:15",
