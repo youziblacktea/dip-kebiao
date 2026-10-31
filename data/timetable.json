@@ -4,7 +4,7 @@
   "generated": "2026-10-28",
   "source": "DIPLOMA Online Campus iCal 导出（课表最后更新 2026-10-28）",
   "range": [
-   "2026-10-26",
+   "2026-10-27",
    "2027-02-12"
   ],
   "subjects": [
@@ -14,9 +14,9 @@
    "Technik wissenschaftlichen Arbeitens",
    "Einführung in die Mechatronik"
   ],
-  "total": 180,
-  "periods": 346,
-  "days": 70
+  "total": 179,
+  "periods": 344,
+  "days": 69
  },
  "weeks": [
   {
@@ -117,15 +117,6 @@
   }
  ],
  "days": {
-  "2026-10-26": [
-   {
-    "s": "09:45",
-    "e": "11:15",
-    "t": "Einführung in die Mechatronik",
-    "r": "H 4_BSA",
-    "p": "Herrn Professor Dr. Namokel"
-   }
-  ],
   "2026-10-27": [
    {
     "s": "08:00",
