@@ -1,8 +1,8 @@
 {
  "meta": {
   "tz": "Europe/Berlin",
-  "generated": "2026-10-13",
-  "source": "DIPLOMA Online Campus iCal 导出（课表最后更新 2026-10-13）",
+  "generated": "2026-11-05",
+  "source": "DIPLOMA Online Campus iCal 导出（课表最后更新 2026-11-05）",
   "range": [
    "2026-11-02",
    "2027-02-12"
@@ -249,14 +249,14 @@
     "s": "08:00",
     "e": "09:30",
     "t": "Deutsch I",
-    "r": "H 7_BSA",
+    "r": "H 9_BSA",
     "p": "Frau Schwandt"
    },
    {
     "s": "09:45",
     "e": "11:15",
     "t": "Deutsch I",
-    "r": "H 7_BSA",
+    "r": "H 9_BSA",
     "p": "Frau Schwandt"
    }
   ],
@@ -593,13 +593,6 @@
     "t": "Deutsch II",
     "r": "H 7_BSA",
     "p": "Frau Reichert"
-   },
-   {
-    "s": "12:30",
-    "e": "14:00",
-    "t": "Technik wissenschaftlichen Arbeitens",
-    "r": "H 3_BSA",
-    "p": "Frau Schwandt"
    }
   ],
   "2026-12-07": [
@@ -653,6 +646,13 @@
     "s": "09:45",
     "e": "11:15",
     "t": "Deutsch I",
+    "r": "H 7_BSA",
+    "p": "Frau Schwandt"
+   },
+   {
+    "s": "11:30",
+    "e": "13:00",
+    "t": "Technik wissenschaftlichen Arbeitens",
     "r": "H 7_BSA",
     "p": "Frau Schwandt"
    }
