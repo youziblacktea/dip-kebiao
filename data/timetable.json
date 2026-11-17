@@ -15,7 +15,7 @@
    "Einführung in die Mechatronik"
   ],
   "total": 149,
-  "periods": 286,
+  "periods": 285,
   "days": 57
  },
  "weeks": [
@@ -107,7 +107,7 @@
  "days": {
   "2026-11-12": [
    {
-    "s": "09:45",
+    "s": "10:30",
     "e": "11:15",
     "t": "Mathematik II",
     "r": "H 7_BSA",
