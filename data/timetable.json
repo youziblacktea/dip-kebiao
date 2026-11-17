@@ -4,7 +4,7 @@
   "generated": "2026-11-05",
   "source": "DIPLOMA Online Campus iCal 导出（课表最后更新 2026-11-05）",
   "range": [
-   "2026-11-12",
+   "2026-11-13",
    "2027-02-12"
   ],
   "subjects": [
@@ -14,9 +14,9 @@
    "Technik wissenschaftlichen Arbeitens",
    "Einführung in die Mechatronik"
   ],
-  "total": 149,
-  "periods": 285,
-  "days": 57
+  "total": 147,
+  "periods": 282,
+  "days": 56
  },
  "weeks": [
   {
@@ -105,22 +105,6 @@
   }
  ],
  "days": {
-  "2026-11-12": [
-   {
-    "s": "10:30",
-    "e": "11:15",
-    "t": "Mathematik II",
-    "r": "H 7_BSA",
-    "p": "Herrn Karwatt"
-   },
-   {
-    "s": "11:30",
-    "e": "13:00",
-    "t": "Mathematik II",
-    "r": "H 7_BSA",
-    "p": "Herrn Karwatt"
-   }
-  ],
   "2026-11-13": [
    {
     "s": "08:00",
