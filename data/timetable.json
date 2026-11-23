@@ -1,10 +1,10 @@
 {
  "meta": {
   "tz": "Europe/Berlin",
-  "generated": "2026-11-05",
-  "source": "DIPLOMA Online Campus iCal 导出（课表最后更新 2026-11-05）",
+  "generated": "2026-11-23",
+  "source": "DIPLOMA Online Campus iCal 导出（课表最后更新 2026-11-23）",
   "range": [
-   "2026-11-18",
+   "2026-11-19",
    "2027-02-12"
   ],
   "subjects": [
@@ -14,9 +14,9 @@
    "Technik wissenschaftlichen Arbeitens",
    "Einführung in die Mechatronik"
   ],
-  "total": 138,
-  "periods": 265,
-  "days": 53
+  "total": 137,
+  "periods": 263,
+  "days": 52
  },
  "weeks": [
   {
@@ -99,15 +99,6 @@
   }
  ],
  "days": {
-  "2026-11-18": [
-   {
-    "s": "09:45",
-    "e": "11:15",
-    "t": "Deutsch I",
-    "r": "H 7_BSA",
-    "p": "Frau Schwandt"
-   }
-  ],
   "2026-11-19": [
    {
     "s": "09:45",
@@ -175,21 +166,21 @@
     "s": "08:00",
     "e": "09:30",
     "t": "Deutsch II",
-    "r": "H 3_BSA",
+    "r": "H 9_BSA",
     "p": "Frau Reichert"
    },
    {
     "s": "09:45",
     "e": "11:15",
     "t": "Deutsch II",
-    "r": "H 3_BSA",
+    "r": "H 9_BSA",
     "p": "Frau Reichert"
    },
    {
     "s": "11:30",
     "e": "13:00",
     "t": "Deutsch II",
-    "r": "H 3_BSA",
+    "r": "H 9_BSA",
     "p": "Frau Reichert"
    }
   ],
