@@ -4,19 +4,19 @@
   "generated": "2026-11-23",
   "source": "DIPLOMA Online Campus iCal 导出（课表最后更新 2026-11-23）",
   "range": [
-   "2026-11-23",
+   "2026-11-24",
    "2027-02-12"
   ],
   "subjects": [
    "Deutsch II",
    "Deutsch I",
    "Mathematik II",
-   "Einführung in die Mechatronik",
-   "Technik wissenschaftlichen Arbeitens"
+   "Technik wissenschaftlichen Arbeitens",
+   "Einführung in die Mechatronik"
   ],
-  "total": 131,
-  "periods": 252,
-  "days": 50
+  "total": 129,
+  "periods": 248,
+  "days": 49
  },
  "weeks": [
   {
@@ -93,22 +93,6 @@
   }
  ],
  "days": {
-  "2026-11-23": [
-   {
-    "s": "08:00",
-    "e": "09:30",
-    "t": "Deutsch I",
-    "r": "H 7_BSA",
-    "p": "Frau Schwandt"
-   },
-   {
-    "s": "09:45",
-    "e": "11:15",
-    "t": "Einführung in die Mechatronik",
-    "r": "H 2_BSA",
-    "p": "Herrn Professor Dr. Namokel"
-   }
-  ],
   "2026-11-24": [
    {
     "s": "08:00",
